@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(rgba(141, 139, 132, 0.6),rgb(64,74,66,0.6)) ,url(image/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    overflow-y: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.picture {
+    background-color: transparent;
+    padding: 0
+}
+
+.breakfast-recipes {
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.recipe:hover, .recipe2:hover {
+    transform: scale(1.02);
+}
+
+.recipe a, .recipe2 a {
+    text-decoration: none;
+    color: black;
+    display: block; 
+}
+
+.recipe img ,.recipe2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.recipe-info {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+
+
+/*this is for the feature*/
+
+.content {
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(141, 139, 132, 0.6),rgb(64,74,66,0.6)) ,url(image/Filipino-Kare-Kare-Recipe.jpg);
+    overflow-y: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content2 {
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+
+/*this is for category*/
+
+
+section {
+    padding: 70px; 
+    background: linear-gradient(45deg, rgba(245, 245, 245, 0.95), rgba(230, 230, 230, 0.95));
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 0% 50%;
+    }
+    75% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.section1{
+    background-color: wheat;
+    padding-top: 100px; 
+}
+.section2{
+    background-color: wheat; 
+    margin-top: 200px;
+}

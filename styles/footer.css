@@ -1,0 +1,38 @@
+.home-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    vertical-align: middle;
+}
+
+
+footer {
+    background-color: #FFFDD0;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons,
+.footer-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure social icons and footer links wrap on smaller screens */
+}
+
+.social-icons a,
+.footer-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.social-icons a:hover,
+.footer-links a:hover {
+    text-decoration: underline;
+}

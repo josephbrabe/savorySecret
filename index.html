@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookbook Website</title>
+    <link href="styles/body.css" rel="stylesheet" >
+    <link href="styles/category_recipe&image_style.css" rel="stylesheet" >
+    <link href="styles/featured_recipe&images_style.css" rel="stylesheet" >
+    <link href="styles/footer.css" rel="stylesheet" >
+    <link href="styles/nav.css" rel="stylesheet" >
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        .content {
+            max-width: 100%;
+            margin: 0;
+            text-align: center;
+            background-image: linear-gradient(rgba(141, 139, 132, 0.6),rgb(64,74,66,0.6)) ,url(image/lugaw1.jpg);
+            overflow-y: auto;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="image/Yellow Emblem Restaurant Logo.jpg" alt="Logo"></i> Savory Secret
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">                      
+                        <div class="nav__link dropdown__button">
+                            MENU <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-utensils"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Our Recipes</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="breakfast.html" class="dropdown__link">Breakfast</a>
+                                        </li>
+                                        <li>
+                                            <a href="lunch.html" class="dropdown__link">Lunch</a>
+                                        </li>
+                                        <li>
+                                            <a href="dinner.html" class="dropdown__link">Dinner</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <li class="dropdown__item">                        
+                        <div class="nav__link dropdown__button" href="">
+                           <a href="index.html"> About Us</a> <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="fa-solid fa-address-card"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">About us</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <section id="home" class="section1">
+            <h1 style="font-size: 40px;">Welcome to Savory Secrets</h1>
+            <p>Discover delicious recipes and create culinary masterpieces at home!</p>
+            <h3 style="font-size: 30px;">Featured Recipes</h3>
+            <div class="picture">
+                <div class="featured-recipes">
+                    <div class="recipe-container">
+                        <div class="recipe">
+                            <a href="recipe.html?recipe=pasta">
+                                <img src="image\slides 1.jpg" alt="Pasta">
+                                <div class="recipe-info">
+                                    <h4>Filipino Omelette</h4>
+                                    <p>Delicious omelette with a rich and savory tomato sauce.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="recipe-container">
+                        <div class="recipe">
+                            <a href="recipe.html?recipe=grilled_chicken">
+                                <img src="image\slides(2).jpg" alt="Grilled Chicken">
+                                <div class="recipe-info">
+                                    <h4>Filipino Champorado</h4>
+                                    <p>Sweet and tasty Filipino champorado, goo.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="next-button" onclick="nextRecipe()">></button>
+                </div>
+            </div>
+
+            <h3 style="font-size: 35px;">Explore by Category</h3>
+
+            <div class="category-photos">
+                <div class="category-photo" onclick="showCategory('breakfast')">
+                    <img src="image\BREAKFAST_IMAGES\homepage.jpg" alt="Category 1">
+                    <div class="category-label">
+                        <p>Breakfast</p>
+                    </div>
+                </div>
+                <div class="category-photo" onclick="showCategory('lunch')">
+                    <img src="image\LUNCH_IMAGES\lunch homepage.webp" alt="Category 2">
+                    <div class="category-label">
+                        <p>Lunch</p>
+                    </div>
+                </div>
+                <div class="category-photo" onclick="showCategory('dinner')">
+                    <img src="image\DINNER_IMAGES\dinner.jpg" alt="Category 3">
+                    <div class="category-label">
+                        <p>Dinner</p>
+                    </div>
+                </div>
+                <!-- Add more category photos as needed -->
+            </div>
+            <p style="font-size: 20px;">At Savory Secrets, we understand the importance of creating meals that not only satiate your hunger but also excite your taste buds. Join us in celebrating the joy of cooking as we share tried-and-true recipes, helpful cooking tips, and creative ideas to make every meal a masterpiece.</p>
+            
+        </section>
+
+        
+        <section class="section2">
+            <h2 style="font-size: 35px;"><strong>Top 3</strong></h2>
+            <p>Discover the allure of these top-ranking recipes and join the culinary journey that has made Savory secrets a hub of gastronomic inspiration. Get ready to elevate your cooking game with these exceptional dishes!</p>
+            <div class="category-photos">
+                <div class="category-photo">
+                    <a href="#" onclick="showRecipe('butiki')">
+                        <img src="image/Beef-Afritada-Recipe-4.jpg" alt="Category 1">
+                        <div class="category-label">
+                            <p>Fried Butiki</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="category-photo">
+                    <a href="#" onclick="showRecipe('bayawak')">
+                        <img src="image/Beef-Afritada-Recipe-4.jpg" alt="Category 1">
+                        <div class="category-label">
+                            <p>Nilagang Bayawak</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="category-photo">
+                    <a href="#" onclick="showRecipe('champorado')">
+                        <img src="image/Beef-Afritada-Recipe-4.jpg" alt="Category 1">
+                        <div class="category-label">
+                            <p>Champo</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+        
+    
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 Cookbook Website. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        
+    <script src="https://kit.fontawesome.com/f29b7b7598.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="slidephoto.js"></script>
+    <script src="navbar.js"></script>
+</body>
+</html>

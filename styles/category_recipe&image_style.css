@@ -150,9 +150,10 @@
     .category-photos {
         flex-direction: column; /* Stack recipe cards vertically */
         align-items: center; /* Center recipe cards horizontally */
+        padding: 0;
     }
 
     .category-photo {
-        width: 80%; /* Adjust width for smaller screens */
+        width: 100%; /* Adjust width for smaller screens */
     }
 }

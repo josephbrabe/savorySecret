@@ -135,9 +135,14 @@
     .breakfast-recipes {
         flex-direction: column; /* Stack recipe cards vertically */
         align-items: center; /* Center recipe cards horizontally */
+        padding: 0;
     }
 
     .recipe2 {
-        width: 80%; /* Adjust width for smaller screens */
+        width: 160%; /* Adjust width for smaller screens */
+        padding: 0;
+    }
+    .recipe-name{
+        font-size: 10px;
     }
 }

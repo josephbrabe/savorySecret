@@ -58,35 +58,24 @@ function displayRecipe(recipe) {
                 </div>
             </div>
         </section>
-        <section>
-        <h2>Feedback</h2>
-        <div class="feedback-content" id="feedback-section">
-            <div class="feedback-container" id="user-feedback">
-                <label for="username">Username:</label>
-                <input type="text" id="username" placeholder="Enter your username">
-                <label for="rating">Rating:</label>
-                <div class="star-rating" id="rating">
-                    <input type="radio" id="star5" name="rating" value="5" />
-                    <label for="star5">&#9733;</label>
-                    <input type="radio" id="star4" name="rating" value="4" />
-                    <label for="star4">&#9733;</label>
-                    <input type="radio" id="star3" name="rating" value="3" />
-                    <label for="star3">&#9733;</label>
-                    <input type="radio" id="star2" name="rating" value="2" />
-                    <label for="star2">&#9733;</label>
-                    <input type="radio" id="star1" name="rating" value="1" />
-                    <label for="star1">&#9733;</label>
+            <section>
+                <h2>Feedback</h2>
+                <div class="feedback-content" id="feedback-section">
+                    <div class="feedback-container" id="user-feedback">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" placeholder="Enter your username">
+                        <label for="rating">Rating:</label>
+                        <input type="number" id="rating" min="1" max="5">
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" rows="4" placeholder="Enter your comment"></textarea>
+                        <button onclick="submitFeedback('${recipe.title}')">Submit Rating</button>
+                    </div>
+                    <div class="feedback-container" id="ratings">
+                        <h3>Recent Ratings and Comments:</h3>
+                        <ul id="ratings-list"></ul>
+                    </div>
                 </div>
-                <label for="comment">Comment:</label>
-                <textarea id="comment" rows="4" placeholder="Enter your comment"></textarea>
-                <button onclick="submitFeedback('${recipe.title}')">Submit Rating</button>
-            </div>
-            <div class="feedback-container" id="ratings">
-                <h3>Recent Ratings and Comments:</h3>
-                <ul id="ratings-list"></ul>
-            </div>
-        </div>
-    </section>
+            </section>
         `;
     }
 }

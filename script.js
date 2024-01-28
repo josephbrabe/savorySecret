@@ -59,10 +59,8 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
-        image: 'image/slides 1.jpg',
-        image2: 'image/slides(2).jpg',
-        image3: 'image/Pork Liver Afritada Recipe.jpg',
-        image4: 'image/tortangtalong1.jpeg'
+        image: 'image/BREAKFAST_IMAGES/talongz.jpg',
+        image2: 'image/tortangtalong1.jpeg'
     },
     champorado: {
         title: 'Filipino Champorado',
@@ -92,31 +90,6 @@ const recipes = {
         image2: 'image\lugaw1.jpg'
      },  
     beef_tapa:{
-        title: 'Filipino Champorado',
-        ingredients: [
-            '1 cup glutinous rice', 
-            '1/2 cup cocoa powder', 
-            '1 cup sugar',
-            '4 cups water',
-            'Evaporated milk (optional for added sweetness)'
-        ],
-        instructions: [
-            'Rinse the glutinous rice in a pot.', 
-            'Add water to the pot and bring the rice to a boil until cooked.', 
-            'Stir in cocoa powder and sugar. Mix well.',
-            'Allow the mixture to simmer slowly until it reaches a thick consistency.',
-            'Once the rice is tender and the mixture has thickened, its ready to be served',
-            'Optionally, add evaporated milk for extra sweetness.'],
-        nutrients: {
-            calories: 350,
-            protein: 10,
-            carbs: 50,
-            fat: 23,
-        },
-        cookTime: '20 minutes',
-        serving: '2-4 person/s',
-    },
-    omelette: {
         title: 'Filipino Beef Tapa',
         ingredients: [
             '1 lb thinly sliced beef sirloin or flank steak', 
@@ -146,9 +119,44 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BeefTapa-1.jpg',
+        image2: 'image/BREAKFAST_IMAGES/beef-tapa_DP1.jpg'
+    },
+    omelette: {
+        title: 'Filipino Rice Porridge',
+        ingredients: [
+            '1 lb thinly sliced beef sirloin or flank steak', 
+            '1/4 cup soy sauce', 
+            '3 tablespoons vinegar (preferably cane vinegar)',
+            '2 tablespoons brown sugar',
+            '1 tablespoon minced garlic',
+            '1 teaspoon ground black pepper',
+            '1/2 teaspoon salt',
+            '2 tablespoons cooking oil (for frying)'
+        ],
+        instructions: [
+            'In a bowl, combine soy sauce, vinegar, brown sugar, minced garlic, black pepper, and salt. Mix well until the sugar is dissolved.',
+            'Place the thinly sliced beef in a shallow dish or a resealable plastic bag.',
+            'Pour the marinade over the beef, making sure each slice is well-coated.',
+            'Marinate in the refrigerator for at least 30 minutes to 2 hours, or overnight for better flavor.',
+            'Heat cooking oil in a pan over medium-high heat. Add the marinated beef slices to the hot pan, spreading them out to ensure even cooking.',
+            'Cook for about 3-5 minutes on each side or until the beef is cooked through and caramelized.',
+            'Adjust cooking time based on your desired doneness and caramelization level.',
+            'Serve the beef tapa with garlic rice (sinangag) and a fried egg (itlog) for a classic Filipino breakfast.'
+        ],
+        nutrients: {
+            calories: 350,
+            protein: 40,
+            carbs: 50,
+            fat: 32,
+        },
+        cookTime: '20 minutes',
+        serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/rice-porridge_DP2.jpg',
+        image2:'image/BREAKFAST_IMAGES/pilipino-rice_DP1.jpg'
     },
     champorado: {
-        title: 'Filipino rice porridge "lugaw"',
+        title: 'Filipino Rice Porridge "Lugaw"',
         ingredients: [
             '1 cup glutinous rice (malagkit)',
             '1 cup regular rice',
@@ -175,6 +183,8 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/rice-porridge_DP2.jpg',
+        image2:'image/BREAKFAST_IMAGES/pilipino-rice_DP1.jpg'
     },
     pancit_canton :{
         title:'Filipino Pancit Canton',
@@ -217,10 +227,8 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
-        image: 'image\BREAKFAST_IMAGES\pancit-canton-closeup-683x1024.webp',
-        image2: 'image/slides(2).jpg',
-        image3: 'image/Pork Liver Afritada Recipe.jpg',
-        image4: 'image/tortangtalong1.jpeg'
+        image: 'image/BREAKFAST_IMAGES/pancit-canton-guisado.jpg',
+        image2: 'image/BREAKFAST_IMAGES/pancit-canton_DP1.jpg'
     },
     
     lumpiang_shanghai:{
@@ -271,6 +279,8 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/lumpiazz.jpg',
+        image2:'image/BREAKFAST_IMAGES/lumpiang-shanghai_DP1.jpg'
     },
     Filipino_Spaghetti:{
         title: 'Spaghetti',
@@ -310,9 +320,11 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-3 person/s',
+        image:'image/BREAKFAST_IMAGES/spagzz.jpg',
+        image2:'image/BREAKFAST_IMAGES/spaghetti_DP1.jpg'
     },
     FILIPINO_GOTO:{
-        title: 'goto',
+        title: 'Goto',
         ingredients: [
             '1 cup glutinous rice (malagkit)',
             '1 cup tripe (tuwalya), cleaned and sliced into thin strips',
@@ -346,9 +358,11 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/gotoz.jpg',
+        image2:'image/BREAKFAST_IMAGES/gotozz.webp'
     },
     palabok:{
-        title:'palabok',
+        title:'Palabok',
         ingredients:[
             '1/2 cup cooking oil',
             '1/2 cup all-purpose flour',
@@ -382,11 +396,40 @@ const recipes = {
         },
         cookTime: '23 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/palabokzz.jpg',
+        image2:'image/BREAKFAST_IMAGES/palabok_DP1.jpg'
     },
     pilipino_lumi:{
-        title: 'lomi',
-        ingredients:['2 tablespoons cooking oil','1 onion, chopped','4 cloves garlic, minced','250g pork belly or pork shoulder, sliced into thin strips','250g chicken breast, cooked and shredded','1 tablespoon fish sauce','8 cups chicken broth','1 chicken bouillon cube (optional)','Salt and pepper to taste','400g lomi noodles (thick egg noodles)','1 cup shredded cabbage','4 hard-boiled eggs, sliced','Calamansi or lemon wedges for serving'],
-        instructions:['Heat oil in a large pot. Sauté onions and garlic until fragrant.','Add pork slices and cook until browned.','Stir in shredded chicken and fish sauce. Cook for a few minutes.','Pour in chicken broth and add the bouillon cube if using. Bring to a simmer.','Season with salt and pepper to taste. Let it simmer for about 15-20 minutes.','While the broth is simmering, cook the lomi noodles according to package instructions. Drain and set aside.','Add the cooked noodles to the pot of simmering broth. Stir well to combine.','Add shredded cabbage, sliced shiitake mushrooms, and julienned carrots. Cook until vegetables are tender.','Adjust the seasoning if needed.','Ladle the hot lomi into bowls.','Top each bowl with crushed chicharrón and sliced hard-boiled eggs.','Serve with calamansi or lemon wedges on the side.'],
+        title: 'Lomi',
+        ingredients:[
+            '2 tablespoons cooking oil',
+            '1 onion, chopped',
+            '4 cloves garlic, minced',
+            '250g pork belly or pork shoulder, sliced into thin strips',
+            '250g chicken breast, cooked and shredded',
+            '1 tablespoon fish sauce',
+            '8 cups chicken broth',
+            '1 chicken bouillon cube (optional)',
+            'Salt and pepper to taste',
+            '400g lomi noodles (thick egg noodles)',
+            '1 cup shredded cabbage',
+            '4 hard-boiled eggs, sliced',
+            'Calamansi or lemon wedges for serving'
+        ],
+        instructions:[
+            'Heat oil in a large pot. Sauté onions and garlic until fragrant.',
+            'Add pork slices and cook until browned.',
+            'Stir in shredded chicken and fish sauce. Cook for a few minutes.',
+            'Pour in chicken broth and add the bouillon cube if using. Bring to a simmer.',
+            'Season with salt and pepper to taste. Let it simmer for about 15-20 minutes.',
+            'While the broth is simmering, cook the lomi noodles according to package instructions. Drain and set aside.',
+            'Add the cooked noodles to the pot of simmering broth. Stir well to combine.',
+            'Add shredded cabbage, sliced shiitake mushrooms, and julienned carrots. Cook until vegetables are tender.',
+            'Adjust the seasoning if needed.',
+            'Ladle the hot lomi into bowls.',
+            'Top each bowl with crushed chicharrón and sliced hard-boiled eggs.',
+            'Serve with calamansi or lemon wedges on the side.'
+        ],
         nutrients: {
             calories: 350,
             protein: 10,
@@ -395,9 +438,11 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/lomizz.jpg',
+        image2:'image/BREAKFAST_IMAGES/lomi.jpg'
     },
     sumanz:{
-        title:'suman',
+        title:'Suman',
         ingredients:[
             '2 cups glutinous rice',
             '1 teaspoon lye water (lihiya)',
@@ -425,9 +470,11 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/sumanzz.jpg',
+        image2:'image/BREAKFAST_IMAGES/suman_DP1.jpg'
     },
     sopas:{
-        title:'supas',
+        title:'Sopas',
         ingredients:[
             '1 cup macaroni noodles',
             '2 tablespoons cooking oil',
@@ -464,9 +511,11 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/sopaz.jpg',
+        image2:'image/BREAKFAST_IMAGES/sopazz.jpg'
     },
     bilobilo:{
-        title:'lobilobi',
+        title:'Ginataang Bilo-bilo',
         ingredients:[
             '1 cup glutinous rice flour',
             '1/2 cup water (adjust as needed)1',
@@ -501,6 +550,8 @@ const recipes = {
         },
         cookTime: '20 minutes',
         serving: '2-4 person/s',
+        image:'image/BREAKFAST_IMAGES/bilobilozz.jpg',
+        image2:'image/BREAKFAST_IMAGES/bilobiloz.jpg'
     },
 	adobo: {
         title: 'Adobo',
@@ -534,7 +585,7 @@ const recipes = {
     },
 
     sinigang: {
-        title: 'Sinigang',
+        title: 'Sinigang na Baboy',
         ingredients: [
             '1 kg pork ribs or pork belly, cut into serving pieces',
             '1 large onion, peeled and quartered',
@@ -972,8 +1023,8 @@ const recipes = {
         },
         cookTime: '4hrs 20minutes',
         serving: '2-4 person/s',
-        image: 'image/LUNCH_IMAGES/lapaz-batchoy_DP1.jpg',
-        image2:'image/LUNCH_IMAGES/lapaz-batchoy_DP2.jpg'
+        image: 'image2/LUNCH_IMAGES/lapaz-batchoy_DP1.jpg',
+        image2:'image2/LUNCH_IMAGES/lapaz-batchoy_DP2.jpg'
     },
     
     tinolamo:{
@@ -1007,11 +1058,11 @@ const recipes = {
         },
         cookTime: '1hr 5minutes',
         serving: '2-4 person/s',
-        image: 'image/LUNCH_IMAGES/tinolang-manok_DP2.jpg',
-        image2:'image/LUNCH_IMAGES/tinolang-manok_DP1.jpg'
+        image: 'image2/LUNCH_IMAGES/tinolang-manok_DP2.jpg',
+        image2:'image2/LUNCH_IMAGES/tinolang-manok_DP1.jpg'
     },
 
-    patapata:{
+    CPATA:{
         title: 'Crispy Pata',
         ingredients: [
             '1 whole pork leg',
@@ -1041,8 +1092,8 @@ const recipes = {
         },
         cookTime: '2hrs 20mins',
         serving: '2-6 person/s',
-        image: 'image/LUNCH_IMAGES/crispy-pata_DP2.jpg',
-        image2:'image/LUNCH_IMAGES/crispy-pata_DP1.jpg'
+        image: 'image2/LUNCH_IMAGES/crispy-pata_DP2.jpg',
+        image2:'image2/LUNCH_IMAGES/crispy-pata_DP1.jpg'
     },
 
     menudomo:{
@@ -1085,8 +1136,8 @@ const recipes = {
         },
         cookTime: '1hr 10mins',
         serving: '2-4 person/s',
-        image: 'image/LUNCH_IMAGES/menudo_DP2.jpg',
-        image2:'image/LUNCH_IMAGES/menudo_DP1.jpg'
+        image: 'image2/LUNCH_IMAGES/menudo_DP2.jpg',
+        image2:'image2/LUNCH_IMAGES/menudo_DP1.jpg'
     },
     
     mechados:{
@@ -1128,11 +1179,11 @@ const recipes = {
         },
         cookTime: '2hrs',
         serving: '4-6 person/s',
-        image: 'image/LUNCH_IMAGES/beef-mechado_DP1.jpg',
-        image2:'image/LUNCH_IMAGES/beef-mechado_DP2.JPG'
+        image: 'image2/LUNCH_IMAGES/beef-mechado_DP1.jpg',
+        image2:'image2/LUNCH_IMAGES/beef-mechado_DP2.JPG'
     },
 
-    bbulalo:{
+    beefbulalo:{
         title: 'Beef Bulalo',
         ingredients: [
             '4.5 pounds bone-in beef shanks',
@@ -1163,11 +1214,11 @@ const recipes = {
         },
         cookTime: '5hrs 20mins',
         serving: '6 person/s',
-        image: 'image/LUNCH_IMAGES/bulalo_DP2.jpg',
-        image2:'image/LUNCH_IMAGES/bulalo_DP1.jpg'
+        image: 'image2/LUNCH_IMAGES/bulalo_DP2.jpg',
+        image2:'image2/LUNCH_IMAGES/bulalo_DP1.jpg'
     },
 
-    bcaldereta:{
+    beefmechado:{
         title: 'Beef Mechado',
         ingredients: [
             '2 pounds chuck roast or top round, cut into 2-inch cubes',
@@ -1206,11 +1257,11 @@ const recipes = {
         },
         cookTime: '2hrs',
         serving: '4-6 person/s',
-        image: 'image/LUNCH_IMAGES/beef-mechado_DP1.jpg',
-        image2:'image/LUNCH_IMAGES/beef-mechado_DP2.JPG'
+        image: 'image2/LUNCH_IMAGES/beef-mechado_DP1.jpg',
+        image2:'image2/LUNCH_IMAGES/beef-mechado_DP2.JPG'
     },
 
-    bbulalo:{
+    beefcaldereta:{
         title: 'Beef Caldereta',
         ingredients: [
             '0.17 cup canola oil',
@@ -1249,8 +1300,8 @@ const recipes = {
         },
         cookTime: '2hrs 10mins',
         serving: '3-4 person/s',
-        image: 'image/LUNCH_IMAGES/beef-caldereta_DP2.jpg',
-        image2:'image/LUNCH_IMAGES/beef-caldereta_DP1.jpg'
+        image: 'image2/LUNCH_IMAGES/beef-caldereta_DP2.jpg',
+        image2:'image2/LUNCH_IMAGES/beef-caldereta_DP1.jpg'
     },
 
     cpochero:{
@@ -1294,8 +1345,8 @@ const recipes = {
         },
         cookTime: '55mins',
         serving: '6 person/s',
-        image: 'image/LUNCH_IMAGES/chicken-pochero_DP1.jpg',
-        image2:'image/LUNCH_IMAGES/chicken-pochero_DP2.jpg'
+        image: 'image2/LUNCH_IMAGES/chicken-pochero_DP1.jpg',
+        image2:'image2/LUNCH_IMAGES/chicken-pochero_DP2.jpg'
     },
 
     pnbangus:{
@@ -1327,8 +1378,8 @@ const recipes = {
         },
         cookTime: '20mins',
         serving: '4 person/s',
-        image: 'image/LUNCH_IMAGES/paksiw-bangus_DP1.jpg',
-        image2:'image/LUNCH_IMAGES/paksiw-bangus_DP2.jpg'
+        image: 'image2/LUNCH_IMAGES/paksiw-bangus_DP1.jpg',
+        image2:'image2/LUNCH_IMAGES/paksiw-bangus_DP2.jpg'
     },
 
     pnpata:{
@@ -1364,8 +1415,8 @@ const recipes = {
         },
         cookTime: '2hrs 10mins',
         serving: '4 person/s',
-        image: 'image/LUNCH_IMAGES/tapa_DP2.jpg',
-        image2:'image/LUNCH_IMAGES/tapa_DP1.jpg'
+        image: 'image2/LUNCH_IMAGES/tapa_DP2.jpg',
+        image2:'image2/LUNCH_IMAGES/tapa_DP1.jpg'
     },
 
     humbamo:{
@@ -1405,8 +1456,8 @@ const recipes = {
         },
         cookTime: '1hr 45mins',
         serving: '4 person/s',
-        image: 'image/LUNCH_IMAGES/humba_DP1.jpg',
-        image2:'image/LUNCH_IMAGES/humba_DP2.jpg'
+        image: 'image2/LUNCH_IMAGES/humba_DP1.jpg',
+        image2:'image2/LUNCH_IMAGES/humba_DP2.jpg'
     },
 
     chops:{
@@ -1458,8 +1509,8 @@ const recipes = {
         },
         cookTime: '45mins',
         serving: '4 person/s',
-        image: 'image/LUNCH_IMAGES/chop-suey_DP2.jpg',
-        image2:'image/LUNCH_IMAGES/chop-suey_DP1.jpg'
+        image: 'image2/LUNCH_IMAGES/chop-suey_DP2.jpg',
+        image2:'image2/LUNCH_IMAGES/chop-suey_DP1.jpg'
     }
     // Add more recipes as needed
 };
@@ -1552,146 +1603,6 @@ function displayFeedbackSection(recipeId) {
     const ratingsList = document.getElementById('ratings-list');
     if (ratingsList) {
         ratingsList.innerHTML = ''; // Clear the list before adding new items
-        const feedbackData = getFeedbackForRecipe(recipeId);
-        feedbackData.forEach(feedback => {
-            const listItem = document.createElement('li');
-            listItem.textContent = `${feedback.username} - Rating: ${feedback.rating}, Comment: ${feedback.comment}`;
-            ratingsList.appendChild(listItem);
-        });
-    }
-}
-
-function submitFeedback(recipeId) {
-    const usernameInput = document.getElementById('username');
-    const ratingInput = document.getElementById('rating');
-    const commentInput = document.getElementById('comment');
-
-    const username = usernameInput.value.trim() || `Anonymous ${Math.floor(Math.random() * 10000)}`;
-    const rating = parseInt(ratingInput.value);
-    const comment = commentInput.value.trim();
-
-    if (isNaN(rating) || rating < 1 || rating > 5) {
-        alert('Please enter a valid rating between 1 and 5.');
-        return;
-    }
-
-    saveFeedbackForRecipe(recipeId, { username, rating, comment });
-
-    usernameInput.value = '';
-    ratingInput.value = '';
-    commentInput.value = '';
-
-    displayFeedbackSection(recipeId);
-}
-
-function getFeedbackForRecipe(recipeId) {
-    const storedData = localStorage.getItem('recipeFeedback');
-    const feedbackData = storedData ? JSON.parse(storedData) : {};
-    return feedbackData[recipeId] || [];
-}
-
-function saveFeedbackForRecipe(recipeId, feedback) {
-    const storedData = localStorage.getItem('recipeFeedback');
-    const feedbackData = storedData ? JSON.parse(storedData) : {};
-    if (!feedbackData[recipeId]) {
-        feedbackData[recipeId] = [];
-    }
-    feedbackData[recipeId].push(feedback);
-    localStorage.setItem('recipeFeedback', JSON.stringify(feedbackData));
-}
-
-function showPage(page) {
-    document.getElementById('home').style.display = 'none';
-    document.getElementById('menu').style.display = 'none';
-
-    document.getElementById(page).style.display = 'block';
-
-    if (page === 'recipe') {
-        const urlParams = new URLSearchParams(window.location.search);
-        const recipeId = urlParams.get('recipe');
-        displayRecipe(recipes[recipeId]);
-    }
-}
-
-function showCategory(category) {
-    window.location.href = category + '.html';
-}
-
-function showRecipe(recipeId) {
-    window.location.href = 'recipe.html?recipe=' + recipeId;
-}
-
-function displayRecipe(recipe) {
-    const recipeContent = document.getElementById('recipe-content');
-    if (recipeContent) {
-        recipeContent.innerHTML = `
-            <section>
-                <header>
-                    <h1>My Awesome Recipes</h1>
-                    <p>Delicious homemade recipes for you to enjoy</p>
-                </header>
-                <h2>${recipe.title}</h2>
-            </section>
-            <section>
-                <div class="image-container">
-                    <img class="recipe-image" src="${recipe.image}" alt="${recipe.title} Image">
-                    <img class="recipe-image" src="${recipe.image2}" alt="${recipe.title} Image">
-                </div>
-            </section>
-            <section>
-                <div class="recipe-details">
-                    <div class="recipe-section">
-                        <h3>Ingredients:</h3>
-                        <ul>${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}</ul>
-                    </div>
-                    <div class="recipe-section">
-                        <h3>Serving:</h3>
-                        <p>${recipe.serving}</p>
-                    </div>
-                    <div class="recipe-section">
-                        <h3>Cook Time:</h3>
-                        <p>${recipe.cookTime}</p>
-                    </div>
-                    <div class="recipe-section">
-                        <h3>Nutrients:</h3>
-                        <ul>
-                            <li>Calories: ${recipe.nutrients.calories}</li>
-                            <li>Protein: ${recipe.nutrients.protein}</li>
-                            <li>Carbs: ${recipe.nutrients.carbs}</li>
-                            <li>Fat: ${recipe.nutrients.fat}</li>
-                        </ul>
-                    </div>
-                    <div class="recipe-section2">
-                        <h3>Instructions:</h3>
-                        <ol>${recipe.instructions.map(instruction => `<li>${instruction}</li>`).join('')}</ol>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <h2>Feedback</h2>
-                <div id="feedback-section">
-                    <div id="user-feedback">
-                        <label for="username">Username:</label>
-                        <input type="text" id="username" placeholder="Enter your username">
-                        <label for="rating">Rating:</label>
-                        <input type="number" id="rating" min="1" max="5">
-                        <label for="comment">Comment:</label>
-                        <textarea id="comment" rows="4" placeholder="Enter your comment"></textarea>
-                        <button onclick="submitFeedback('${recipe.id}')">Submit Feedback</button>
-                    </div>
-                    <div id="ratings">
-                        <h3>Recent Ratings and Comments:</h3>
-                        <ul id="ratings-list"></ul>
-                    </div>
-                </div>
-            </section>
-        `;
-    }
-}
-
-function displayFeedbackSection(recipeId) {
-    const ratingsList = document.getElementById('ratings-list');
-    if (ratingsList) {
         const feedbackData = getFeedbackForRecipe(recipeId);
         feedbackData.forEach(feedback => {
             const listItem = document.createElement('li');

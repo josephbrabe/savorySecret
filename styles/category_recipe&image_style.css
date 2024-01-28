@@ -146,3 +146,13 @@
     color: #fff; /* Set text color */
 }
 
+@media screen and (max-width: 880px) {
+    .category-photos {
+        flex-direction: column; /* Stack recipe cards vertically */
+        align-items: center; /* Center recipe cards horizontally */
+    }
+
+    .category-photo {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}

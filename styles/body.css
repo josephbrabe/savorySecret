@@ -20,7 +20,6 @@ body {
     gap: 20px;
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
 
@@ -73,10 +72,15 @@ h1, h2, h3 {
 
 
 /*this is for category*/
-
+.recipe-box{
+    padding: 50px;
+    text-align: center;
+    border-top: 2px solid rgb(66, 56, 56);
+    margin-top: 30px;
+}
 
 section {
-    padding: 70px; 
+    padding: 60px; 
     background: linear-gradient(45deg, rgba(245, 245, 245, 0.95), rgba(230, 230, 230, 0.95));
     background-size: 400% 400%;
     animation: gradientAnimation 10s ease infinite;
